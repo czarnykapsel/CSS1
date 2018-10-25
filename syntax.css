@@ -1,0 +1,21 @@
+/* Author: Czarny Kaprel
+Date: 25.10.18
+ */
+
+/* this is comment just for ex */
+
+#header{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*
+#header h1 {
+    font-size: 32px;
+}
+*/
+
+p{
+    font-size: 18px;
+    color: blueviolet;
+}
