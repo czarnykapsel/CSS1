@@ -3,11 +3,10 @@ Date: 25.10.18
  */
 
 /* this is comment just for ex */
-
+body{ color:brown
+}
 #header{
-    position: absolute;
-    top: 0;
-    left: 0;
+   color: darkgreen;
 }
 /*
 #header h1 {
@@ -18,4 +17,26 @@ Date: 25.10.18
 p{
     font-size: 18px;
     color: blueviolet;
+}
+
+h2{
+    font-size: 18px;
+    color: aqua;
+}
+
+#chocolate{
+    font-size: 23px;
+    color: brown;
+}
+
+span{
+    color: firebrick;
+}
+
+.deck{
+    color: greenyellow;
+}
+
+h5{
+    color: yellow !important;
 }
