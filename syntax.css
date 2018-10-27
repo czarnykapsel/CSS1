@@ -2,41 +2,20 @@
 Date: 25.10.18
  */
 
-/* this is comment just for ex */
-body{ color:brown
-}
-#header{
-   color: darkgreen;
-}
-/*
-#header h1 {
-    font-size: 32px;
-}
-*/
+span[class]{color: red;}
+a[href$="pdf"]
+{color: green;}
 
-p{
-    font-size: 18px;
-    color: blueviolet;
+
+
+a:hover{
+    color: red;
+}
+a:active{
+    color: gray;
 }
 
-h2{
-    font-size: 18px;
-    color: aqua;
-}
+a:visited{
+    color: purple;
 
-#chocolate{
-    font-size: 23px;
-    color: brown;
-}
-
-span{
-    color: firebrick;
-}
-
-.deck{
-    color: greenyellow;
-}
-
-h5{
-    color: yellow !important;
 }
