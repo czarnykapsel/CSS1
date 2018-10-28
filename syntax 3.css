@@ -1,9 +1,15 @@
 *{
-    font-family: arial, "Tibetan Machine Uni", sans-serif
+    font-family: arial, "Tibetan Machine Uni", sans-serif;
+
+}
+
+body{
+    background-color: chocolate;
 }
 
 h1{
     text-decoration: underline;
+    color: #567398;
 }
 
 h2{
@@ -11,5 +17,103 @@ h2{
 }
 
 p{
-    font-weight: lighter
+    font-weight: 200;
+}
+.boo{
+    background-color: #567398;
+}
+a{
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+    background-color: gray;
+}
+p{
+    font-size: 12px;
+    letter-spacing: normal;
+    word-spacing: 0.2em;
+    line-height: 1.5em;
+    margine-bottom: 30px;
+}
+
+.box{
+    margin: 30px auto;
+    padding: 30px;
+    border: 1px solid#000000;
+    width: 200px;
+    height: 200px;
+    background-image: url("cat img/download.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: grey;
+}
+
+.deck{
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid#000000;
+    display: inline-block;
+    background: #567398;
+    border-radius: 10px;
+}
+
+#circle1{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: rgba(200, 200, 100, 0.5);
+    border-radius: 200px;
+    top: 50px;
+    left: 50px;
+    text-align: center;
+}
+#circle2{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: rgba(200, 100, 200, 0.5);
+    border-radius: 200px;
+    top: 250px;
+    left: 150px;
+    text-align: center;
+}
+#circle3{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: rgba(200, 200, 100, 0.5);
+    border-radius: 200px;
+    top: 50px;
+    left: 250px;
+    text-align: center;
+}
+.button{
+    display: block;
+    width: 100px;
+    padding: 12px;
+    border: 1px solid #77aaaa;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 4px;
+    background: #aadddd;
+    background: -webkit-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+    background: -moz-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+    background: linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+.button:hover{
+    background: #77aaaa;
+    background: -webkit-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
+    background: -moz-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
+    background: linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
 }
